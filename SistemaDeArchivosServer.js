@@ -7,6 +7,12 @@ const eventos = require('events');
 const eventEmitter = new eventos();
 
 
+eventEmitter.on('fileRead', (filename) => {
+    console.log(`El archivo  "${filename}" fue leído exitosamente.`);
+});
+
+
+
 //Servidor HTTP
 const server = http.createServer((req, res) => {
 
@@ -27,6 +33,10 @@ const server = http.createServer((req, res) => {
                 return;
             };
 
+
+            // caso de exito -- se lee el archivo
+            eventEmitter.emit('fileRead', 'archivo.txt');
+            
             // Envia el contenido del archivo como respuesta http
             res.writeHead(200, { 'Content-Type': 'text/plain' });
             res.end(data); 
