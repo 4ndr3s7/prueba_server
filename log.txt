@@ -1,0 +1,6 @@
+[13/10/2025, 9:25:15 p. m.] Servidor iniciado en el puerto 3000
+[13/10/2025, 9:25:37 p. m.] Archivo escrito exitosamente.
+[13/10/2025, 9:25:42 p. m.] El archivo "archivo.txt" fue leído exitosamente.
+[13/10/2025, 9:25:46 p. m.] Archivo editado exitosamente.
+[13/10/2025, 9:25:51 p. m.] Ruta no encontrada: /borrar
+[13/10/2025, 9:25:57 p. m.] Archivo eliminado exitosamente.

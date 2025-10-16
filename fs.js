@@ -30,14 +30,3 @@ fs.appendFile('archivo.txt', '\nContenido adicional', (err) => {
 
 
 
-/*
-
-// Delete - Eliminar un archivo
-fs.unlink('archivo.txt', (err) => {
-  if (err) throw err;
-  console.log('El archivo ha sido eliminado');
-});
-*/
-
-// Verificar si un archivo existe
-
